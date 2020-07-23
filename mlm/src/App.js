@@ -1,6 +1,12 @@
 import React from "react";
 import "./App.css";
 import logo from "./mlmLogo.png";
+import covid from "./img/covid.jpg";
+import pokemon from "./img/pokemon.jpg";
+import tweets from "./img/tweets.jpg";
+import twittericon from "./img/twitter.png";
+import linkedin from "./img/linkedin.png";
+import github from "./img/githubwhite.png";
 
 function App() {
   return (
@@ -10,7 +16,7 @@ function App() {
         id="mainNav"
       >
         <div class="container">
-          <button
+          {/* <button
             class="navbar-toggler navbar-toggler-right"
             type="button"
             data-toggle="collapse"
@@ -20,7 +26,7 @@ function App() {
             aria-label="Toggle navigation"
           >
             <span class="navbar-toggler-icon"></span>
-          </button>
+          </button> */}
           <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="navbar-nav ml-auto my-2 my-lg-0">
               <li class="nav-item">
@@ -62,7 +68,7 @@ function App() {
                 Fullstack Engineer | UX/UI
               </p>
               <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">
-                Find Out More
+                Dive In
               </a>
             </div>
           </div>
@@ -74,7 +80,7 @@ function App() {
           <div class="row justify-content-center">
             <div class="col-lg-8 text-center">
               <h2 id="aboutMe" class="mt-0">
-                About me
+                About Me
               </h2>
               <hr class="divider light my-4" />
               <p class="text-white-50 mb-4">
@@ -102,7 +108,7 @@ function App() {
                 class="btn btn-light btn-xl js-scroll-trigger"
                 href="#services"
               >
-                Check out my skills
+                Check Out My Skills
               </a>
             </div>
           </div>
@@ -118,7 +124,8 @@ function App() {
             <div class="col-lg-3 col-md-6 text-center">
               <div class="mt-5">
                 <p class="text-muted mb-0">
-                  <img className="skillsIcons2"
+                  <img
+                    className="skillsIcons2"
                     src="https://www.broughtondesigns.com.au/wp-content/uploads/2014/07/html-css-js.png"
                     alt="javascript icon"
                   />
@@ -129,7 +136,8 @@ function App() {
             <div class="col-lg-3 col-md-6 text-center">
               <div class="mt-5">
                 <p class="text-muted mb-0">
-                <img className="skillsIcons1"
+                  <img
+                    className="skillsIcons1"
                     src="https://www.cloudanalogy.co.uk/wp-content/uploads/2019/06/react.png"
                     alt="react icon"
                   />
@@ -140,7 +148,8 @@ function App() {
             <div class="col-lg-3 col-md-6 text-center">
               <div class="mt-5">
                 <p class="text-muted mb-0">
-                <img className="skillsIcons1"
+                  <img
+                    className="skillsIcons1"
                     src="https://codedistrict.io/wp-content/uploads/2017/12/reduxLogo.png"
                     alt="redux icon"
                   />
@@ -148,11 +157,11 @@ function App() {
               </div>
             </div>
 
-
             <div class="col-lg-3 col-md-6 text-center">
               <div class="mt-5">
                 <p class="text-muted mb-0">
-                <img className="skillsIcons1"
+                  <img
+                    className="skillsIcons1"
                     src="https://cdn.iconscout.com/icon/free/png-256/postgresql-11-1175122.png"
                     alt="postgresql icon"
                   />
@@ -163,7 +172,8 @@ function App() {
             <div class="col-lg-3 col-md-6 text-center">
               <div class="mt-5">
                 <p class="text-muted mb-0">
-                <img className="skillsIcons1"
+                  <img
+                    className="skillsIcons1"
                     src="https://cdn.shortpixel.ai/client/q_glossy,ret_img,w_634/https://huddle.eurostarsoftwaretesting.com/wp-content/uploads/2018/10/pm-logo-vert.png"
                     alt="postman icon"
                   />
@@ -174,7 +184,9 @@ function App() {
             <div class="col-lg-3 col-md-6 text-center">
               <div class="mt-5">
                 <p class="text-muted mb-0">
-                <img id="node" className="skillsIcons2"
+                  <img
+                    id="node"
+                    className="skillsIcons2"
                     src="https://transang.me/content/images/2019/11/ExpressJS.png"
                     alt="express icon"
                   />
@@ -185,7 +197,9 @@ function App() {
             <div class="col-lg-3 col-md-6 text-center">
               <div class="mt-5">
                 <p class="text-muted mb-0">
-                <img id="node"className="skillsIcons1"
+                  <img
+                    id="node"
+                    className="skillsIcons1"
                     src="https://pluspng.com/img-png/nodejs-png-node-js-on-light-background-1843.png"
                     alt="node icon"
                   />
@@ -196,74 +210,85 @@ function App() {
             <div class="col-lg-3 col-md-6 text-center">
               <div class="mt-5">
                 <p class="text-muted mb-0">
-                <img id="git" className="skillsIcons1"
+                  <img
+                    id="git"
+                    className="skillsIcons1"
                     src="https://git-scm.com/images/logos/downloads/Git-Logo-2Color.png"
                     alt="git icon"
                   />
                 </p>
               </div>
             </div>
-
           </div>
         </div>
       </section>
 
-      <div id="portfolio">
+      <h2 id="portfolioH1" class="text-center mt-0">
+        Portfolio
+      </h2>
+      <section id="portfolioSection" class="page-section">
         <div class="container-fluid p-0">
           <div class="row no-gutters">
             <div class="col-lg-4 col-sm-6">
-              <a
-                class="portfolio-box"
-                href="assets/img/portfolio/fullsize/1.jpg"
-              >
-                <img
-                  class="img-fluid"
-                  src="assets/img/portfolio/thumbnails/1.jpg"
-                  alt=""
-                />
-                <div class="portfolio-box-caption">
-                  <div class="project-category text-white-50">Category</div>
-                  <div class="project-name">Project Name</div>
+              <img class="img-fluid" src={pokemon} alt="" />
+              <div class="portfolio-box-caption">
+                <a
+                  class="portfolio-box"
+                  href="https://getyourpokemon.netlify.app/"
+                >
+                  <div id="category" class="project-category">
+                    Get Your Pokemon!
+                  </div>
+                </a>
+                <div class="project-name">
+                  A simple frontend React application, utilizing restful API to
+                  get pokemon by type and learn about specific pokemon stats
                 </div>
-              </a>
+              </div>
+            </div>
+            <div class="col-lg-4 col-sm-6">
+              <img id="covid" class="img-fluid" src={covid} alt="" />
+              <div class="portfolio-box-caption">
+                <a
+                  class="portfolio-box"
+                  href="https://covidnearus.netlify.app/"
+                >
+                  <div id="category" class="project-category">
+                    COVIDNearUS
+                  </div>
+                </a>
+                <div class="project-name">
+                  A Covid-19 tracking React app created for Codecademy
+                  sponsored, 48HR-Hackathon! Users can look up state-specific
+                  covid information, view tweets and news feed, and find testing
+                  locations nearby. Winner of Most Ambitious award from
+                  Codecademy judges!
+                </div>
+              </div>
             </div>
 
             <div class="col-lg-4 col-sm-6">
-              <a
-                class="portfolio-box"
-                href="assets/img/portfolio/fullsize/2.jpg"
-              >
-                <img
-                  class="img-fluid"
-                  src="assets/img/portfolio/thumbnails/2.jpg"
-                  alt=""
-                />
-                <div class="portfolio-box-caption">
-                  <div class="project-category text-white-50">Category</div>
-                  <div class="project-name">Project Name</div>
+              <img id="tweet" class="img-fluid" src={tweets} alt="" />
+              <div class="portfolio-box-caption">
+                <a
+                  class="portfolio-box"
+                  href={"https://maria-martinez-cta.netlify.app/"}
+                >
+                  <div id="category" class="project-category">
+                    CTA Project
+                  </div>
+                </a>
+                <div class="project-name">
+                  Fullstack React app, where a user may create an account, view
+                  and create posts, check out other user profiles, and search
+                  posts by hashtag. <br />
+                  Future implementation: adapt to mobile
                 </div>
-              </a>
-            </div>
-
-            <div class="col-lg-4 col-sm-6">
-              <a
-                class="portfolio-box"
-                href="assets/img/portfolio/fullsize/3.jpg"
-              >
-                <img
-                  class="img-fluid"
-                  src="assets/img/portfolio/thumbnails/3.jpg"
-                  alt=""
-                />
-                <div class="portfolio-box-caption">
-                  <div class="project-category text-white-50">Category</div>
-                  <div class="project-name">Project Name</div>
-                </div>
-              </a>
+              </div>
             </div>
           </div>
         </div>
-      </div>
+      </section>
 
       <section class="page-section" id="contact">
         <div class="container">
@@ -272,8 +297,8 @@ function App() {
               <h2 class="mt-0">Let's Get In Touch!</h2>
               <hr class="divider my-4" />
               <p class="text-muted mb-5">
-                Please feel free to call or send an email and I'll get back to
-                you as soon as possible!
+                I'd love to hear from you! Please feel free to call or send an
+                email and I'll get back to you as soon as possible!
               </p>
             </div>
           </div>
@@ -281,7 +306,7 @@ function App() {
           <div class="row">
             <div class="col-lg-4 ml-auto text-center mb-5 mb-lg-0">
               <i class="fas fa-phone fa-3x mb-3 text-muted"></i>
-              <div>+1 (646) 349-0455</div>
+              <div id="phone">+1 (646) 349-0455</div>
             </div>
             <div class="col-lg-4 mr-auto text-center">
               <i class="fas fa-envelope fa-3x mb-3 text-muted"></i>
@@ -293,6 +318,30 @@ function App() {
           </div>
         </div>
       </section>
+
+      <div className="contactRow">
+        <ul class="row">
+          <li>
+            <a href="https://twitter.com/xomarializaxo">
+              <img id="twit"
+                className="contactIcons"
+                src={twittericon}
+                alt="twittericon"
+              />
+            </a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/marializamartinez/">
+              <img id="linkd" className="contactIcons" src={linkedin} alt="linkedin" />
+            </a>
+          </li>
+          <li>
+            <a href="https://github.com/mariaLiza">
+              <img id="gh" className="contactIcons" src={github} alt="github" />
+            </a>
+          </li>
+        </ul>
+      </div>
 
       <footer class="bg-light py-5">
         <div class="container">
