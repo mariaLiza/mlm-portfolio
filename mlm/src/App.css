@@ -655,6 +655,7 @@ pre code {
   }
 }
 .row {
+  justify-content: space-evenly;
   display: flex;
   flex-wrap: wrap;
   margin-right: -15px;
@@ -10325,8 +10326,8 @@ a.text-dark:focus {
 
 .text-white-50 {
   font-weight: 400;
-  font-size: 13pt;
-  letter-spacing: 2px;
+  font-size: 15pt;
+  letter-spacing: 1px;
   color: #57564fd2 !important;
   text-shadow: 0.5px 0.5px #cdfff9;
 }
@@ -10357,6 +10358,21 @@ a.text-dark:focus {
 
 .invisible {
   visibility: hidden !important;
+}
+
+.skillsIcons {
+  width: 200px;
+  height: auto;
+}
+
+.skillsIcons1 {
+  width: 125px;
+  height: auto;
+}
+
+.skillsIcons2 {
+  width: 250px;
+  height: auto;
 }
 
 @media print {
@@ -10677,6 +10693,6 @@ header.masthead h1 {
   color: #46453fe2;
   letter-spacing: 3px;
   font-weight: 900;
-  font-size: 18pt;
+  font-size: 20pt;
   text-shadow: 1px 0.5px #cdfff9;
 }

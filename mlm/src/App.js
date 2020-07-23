@@ -59,7 +59,7 @@ function App() {
             </div>
             <div class="col-lg-8 align-self-baseline">
               <p class="text-white-75 font-weight-light mb-5">
-               Fullstack Engineer | UX/UI
+                Fullstack Engineer | UX/UI
               </p>
               <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">
                 Find Out More
@@ -73,23 +73,30 @@ function App() {
         <div class="container">
           <div class="row justify-content-center">
             <div class="col-lg-8 text-center">
-              <h2 id="aboutMe" class="mt-0">About me</h2>
+              <h2 id="aboutMe" class="mt-0">
+                About me
+              </h2>
               <hr class="divider light my-4" />
               <p class="text-white-50 mb-4">
-                  Caribbean born, New York City based.
-                  <br /><br />
-                  I am passionate about programming, especially creating
-                  beautiful applications that are both user friendly and
-                  accessible for all.
-                  <br /><br />
-                  Enrolled in an intensive 12-month, Google-funded software engineering fellowship with a 9% acceptance rate, at <a href="https://www.pursuit.org/">Pursuit </a>in Long Island City, Queens.
-                  Having majored in film and tv, and specializing in traditional
-                  animation, I'm thrilled to bring my creativity and artistic
-                  background to web development.
-                  <br /><br />
-                  I'm also a professional baker and chocolatier and love to
-                  dabble in the visual arts!
-                
+                Caribbean born, New York City based.
+                <br />
+                <br />
+                I am passionate about programming, especially creating beautiful
+                applications that are both user friendly and accessible for all.
+                <br />
+                <br />
+                Enrolled in an intensive 12-month, Google-funded software
+                engineering fellowship with a 9% acceptance rate, at{" "}
+                <a href="https://www.pursuit.org/">Pursuit </a>in Long Island
+                City, Queens.
+                <br />
+                Having majored in film and tv, and specializing in traditional
+                animation, I'm thrilled to bring my creativity and artistic
+                background to web development.
+                <br />
+                <br />
+                I'm also a professional baker and chocolatier and love to dabble
+                in the visual arts!
               </p>
               <a
                 class="btn btn-light btn-xl js-scroll-trigger"
@@ -106,43 +113,97 @@ function App() {
         <div class="container">
           <h2 class="text-center mt-0">Skills</h2>
           <hr class="divider my-4" />
+
           <div class="row">
             <div class="col-lg-3 col-md-6 text-center">
               <div class="mt-5">
-                <i class="fas fa-4x fa-gem text-primary mb-4"></i>
-                <h3 class="h4 mb-2">Sturdy Themes</h3>
                 <p class="text-muted mb-0">
-                  Our themes are updated regularly to keep them bug free!
+                  <img className="skillsIcons2"
+                    src="https://www.broughtondesigns.com.au/wp-content/uploads/2014/07/html-css-js.png"
+                    alt="javascript icon"
+                  />
                 </p>
               </div>
             </div>
+
             <div class="col-lg-3 col-md-6 text-center">
               <div class="mt-5">
-                <i class="fas fa-4x fa-laptop-code text-primary mb-4"></i>
-                <h3 class="h4 mb-2">Up to Date</h3>
                 <p class="text-muted mb-0">
-                  All dependencies are kept current to keep things fresh.
+                <img className="skillsIcons1"
+                    src="https://www.cloudanalogy.co.uk/wp-content/uploads/2019/06/react.png"
+                    alt="react icon"
+                  />
                 </p>
               </div>
             </div>
+
             <div class="col-lg-3 col-md-6 text-center">
               <div class="mt-5">
-                <i class="fas fa-4x fa-globe text-primary mb-4"></i>
-                <h3 class="h4 mb-2">Ready to Publish</h3>
                 <p class="text-muted mb-0">
-                  You can use this design as is, or you can make changes!
+                <img className="skillsIcons1"
+                    src="https://codedistrict.io/wp-content/uploads/2017/12/reduxLogo.png"
+                    alt="redux icon"
+                  />
                 </p>
               </div>
             </div>
+
+
             <div class="col-lg-3 col-md-6 text-center">
               <div class="mt-5">
-                <i class="fas fa-4x fa-heart text-primary mb-4"></i>
-                <h3 class="h4 mb-2">Made with Love</h3>
                 <p class="text-muted mb-0">
-                  Is it really open source if it's not made with love?
+                <img className="skillsIcons1"
+                    src="https://cdn.iconscout.com/icon/free/png-256/postgresql-11-1175122.png"
+                    alt="postgresql icon"
+                  />
                 </p>
               </div>
             </div>
+
+            <div class="col-lg-3 col-md-6 text-center">
+              <div class="mt-5">
+                <p class="text-muted mb-0">
+                <img className="skillsIcons1"
+                    src="https://cdn.shortpixel.ai/client/q_glossy,ret_img,w_634/https://huddle.eurostarsoftwaretesting.com/wp-content/uploads/2018/10/pm-logo-vert.png"
+                    alt="postman icon"
+                  />
+                </p>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 text-center">
+              <div class="mt-5">
+                <p class="text-muted mb-0">
+                <img id="node" className="skillsIcons2"
+                    src="https://transang.me/content/images/2019/11/ExpressJS.png"
+                    alt="express icon"
+                  />
+                </p>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 text-center">
+              <div class="mt-5">
+                <p class="text-muted mb-0">
+                <img id="node"className="skillsIcons1"
+                    src="https://pluspng.com/img-png/nodejs-png-node-js-on-light-background-1843.png"
+                    alt="node icon"
+                  />
+                </p>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 text-center">
+              <div class="mt-5">
+                <p class="text-muted mb-0">
+                <img id="git" className="skillsIcons1"
+                    src="https://git-scm.com/images/logos/downloads/Git-Logo-2Color.png"
+                    alt="git icon"
+                  />
+                </p>
+              </div>
+            </div>
+
           </div>
         </div>
       </section>
@@ -166,6 +227,7 @@ function App() {
                 </div>
               </a>
             </div>
+
             <div class="col-lg-4 col-sm-6">
               <a
                 class="portfolio-box"
@@ -182,6 +244,7 @@ function App() {
                 </div>
               </a>
             </div>
+
             <div class="col-lg-4 col-sm-6">
               <a
                 class="portfolio-box"
@@ -198,54 +261,6 @@ function App() {
                 </div>
               </a>
             </div>
-            <div class="col-lg-4 col-sm-6">
-              <a
-                class="portfolio-box"
-                href="assets/img/portfolio/fullsize/4.jpg"
-              >
-                <img
-                  class="img-fluid"
-                  src="assets/img/portfolio/thumbnails/4.jpg"
-                  alt=""
-                />
-                <div class="portfolio-box-caption">
-                  <div class="project-category text-white-50">Category</div>
-                  <div class="project-name">Project Name</div>
-                </div>
-              </a>
-            </div>
-            <div class="col-lg-4 col-sm-6">
-              <a
-                class="portfolio-box"
-                href="assets/img/portfolio/fullsize/5.jpg"
-              >
-                <img
-                  class="img-fluid"
-                  src="assets/img/portfolio/thumbnails/5.jpg"
-                  alt=""
-                />
-                <div class="portfolio-box-caption">
-                  <div class="project-category text-white-50">Category</div>
-                  <div class="project-name">Project Name</div>
-                </div>
-              </a>
-            </div>
-            <div class="col-lg-4 col-sm-6">
-              <a
-                class="portfolio-box"
-                href="assets/img/portfolio/fullsize/6.jpg"
-              >
-                <img
-                  class="img-fluid"
-                  src="assets/img/portfolio/thumbnails/6.jpg"
-                  alt=""
-                />
-                <div class="portfolio-box-caption p-3">
-                  <div class="project-category text-white-50">Category</div>
-                  <div class="project-name">Project Name</div>
-                </div>
-              </a>
-            </div>
           </div>
         </div>
       </div>
@@ -257,11 +272,12 @@ function App() {
               <h2 class="mt-0">Let's Get In Touch!</h2>
               <hr class="divider my-4" />
               <p class="text-muted mb-5">
-                Ready to start your next project with us? Give us a call or send
-                us an email and we will get back to you as soon as possible!
+                Please feel free to call or send an email and I'll get back to
+                you as soon as possible!
               </p>
             </div>
           </div>
+
           <div class="row">
             <div class="col-lg-4 ml-auto text-center mb-5 mb-lg-0">
               <i class="fas fa-phone fa-3x mb-3 text-muted"></i>
@@ -281,7 +297,7 @@ function App() {
       <footer class="bg-light py-5">
         <div class="container">
           <div class="small text-center text-muted">
-            Copyright © 2020 Maria L. Martinez
+            Copyright © 2020 Maria Liza Martinez
           </div>
         </div>
       </footer>
