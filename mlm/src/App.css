@@ -179,12 +179,12 @@ sup {
 }
 
 a {
-  color: #f4623a;
+  color: #F25C54;
   text-decoration: none;
   background-color: transparent;
 }
 a:hover {
-  color: #d6370c;
+  color: #F25C54;
   text-decoration: underline;
 }
 
@@ -430,8 +430,8 @@ h6,
 
 #aboutMe {
   font-size: 28pt;
-  color: rgb(54, 187, 174);
-  text-shadow: 1px 0.5px #cdfff9;
+  color: rgba(20, 136, 124, 0.783);
+  text-shadow: 0.5px 0.5px #cdfff9;
 }
 
 .lead {
@@ -2671,8 +2671,8 @@ fieldset:disabled a.btn {
 .btn-primary.disabled,
 .btn-primary:disabled {
   color: #fff;
-  background-color: #f4623a;
-  border-color: #f4623a;
+  background-color: #F25C54;
+  border-color: #F25C54;
 }
 .btn-primary:not(:disabled):not(.disabled):active,
 .btn-primary:not(:disabled):not(.disabled).active,
@@ -3475,7 +3475,7 @@ input[type="button"].btn-block {
 .dropdown-item:active {
   color: #fff;
   text-decoration: none;
-  background-color: #f4623a;
+  background-color: #F25C54;
 }
 .dropdown-item.disabled,
 .dropdown-item:disabled {
@@ -4936,7 +4936,7 @@ input[type="button"].btn-block {
   padding: 0.5rem 0.75rem;
   margin-left: -1px;
   line-height: 1.25;
-  color: #f4623a;
+  color: #F25C54;
   background-color: #fff;
   border: 1px solid #dee2e6;
 }
@@ -5044,7 +5044,7 @@ a.badge:focus {
 
 .badge-primary {
   color: #fff;
-  background-color: #f4623a;
+  background-color: #F25C54;
 }
 a.badge-primary:hover,
 a.badge-primary:focus {
@@ -5338,7 +5338,7 @@ a.badge-dark.focus {
   color: #fff;
   text-align: center;
   white-space: nowrap;
-  background-color: #f4623a;
+  background-color: #F25C54;
   transition: width 0.6s ease;
 }
 @media (prefers-reduced-motion: reduce) {
@@ -6511,8 +6511,8 @@ a.close.disabled {
     linear-gradient(
       90deg,
       hsla(153, 100%, 82%, 1) 15%,
-      rgba(129, 126, 116, 0.646) 35.2%,
-      hsla(225, 6%, 72%, 1) 50.4%,
+      rgba(189, 178, 144, 0.522) 35.2%,
+      rgb(175, 178, 191) 50.4%,
       hsla(199, 33%, 83%, 1) 70.6%,
       hsla(173, 100%, 90%, 1) 90.8%
     );
@@ -6581,7 +6581,15 @@ button.bg-danger:focus {
 }
 
 .bg-light {
-  background-color: #f8f9fa !important;
+  background-image: url(https://www.transparenttextures.com/patterns/wall-4-light.png),
+    linear-gradient(
+      90deg,
+      #a3ffd6 15%,
+      rgba(129, 126, 116, 0.646) 35.2%,
+      #b3b5bc 50.4%,
+      #c5d9e2 70.6%,
+      #ccfff9 90.8%
+    ) 
 }
 
 a.bg-light:hover,
@@ -10224,6 +10232,7 @@ button.bg-dark:focus {
 
 .text-white {
   font-size: 38pt;
+  letter-spacing: 2px;
   color: #f25c54 !important;
   text-shadow: 1px 1px 2px #cdfff9;
 }
@@ -10305,7 +10314,9 @@ a.text-dark:focus {
 }
 
 .text-muted {
-  color: #6c757d !important;
+  font-size: 14pt;
+  color: #817F75 !important;
+  text-shadow: 0.5px 0.5px #cdfff9;
 }
 
 .text-black-50 {
@@ -10313,9 +10324,10 @@ a.text-dark:focus {
 }
 
 .text-white-50 {
-  font-weight: 500;
+  font-weight: 400;
   font-size: 13pt;
-  color: #817f75 !important;
+  letter-spacing: 2px;
+  color: #57564fd2 !important;
   text-shadow: 0.5px 0.5px #cdfff9;
 }
 
@@ -10501,10 +10513,10 @@ hr.light {
 }
 #mainNav .navbar-nav .nav-item .nav-link:hover,
 #mainNav .navbar-nav .nav-item .nav-link:active {
-  color: #f4623a;
+  color: #F25C54;
 }
 #mainNav .navbar-nav .nav-item .nav-link.active {
-  color: #f4623a !important;
+  color: #F25C54 !important;
 }
 @media (min-width: 992px) {
   #mainNav {
@@ -10535,13 +10547,13 @@ hr.light {
     color: #212529;
   }
   #mainNav.navbar-scrolled .navbar-brand:hover {
-    color: #f4623a;
+    color: #F25C54;
   }
   #mainNav.navbar-scrolled .navbar-nav .nav-item .nav-link {
     color: #212529;
   }
   #mainNav.navbar-scrolled .navbar-nav .nav-item .nav-link:hover {
-    color: #f4623a;
+    color: #F25C54;
   }
 }
 
@@ -10662,7 +10674,8 @@ header.masthead h1 {
 }
 
 .text-white-75 {
-  color: #817f75;
+  color: #46453fe2;
+  letter-spacing: 3px;
   font-weight: 900;
   font-size: 18pt;
   text-shadow: 1px 0.5px #cdfff9;

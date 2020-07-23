@@ -59,7 +59,7 @@ function App() {
             </div>
             <div class="col-lg-8 align-self-baseline">
               <p class="text-white-75 font-weight-light mb-5">
-               Fullstack Web Engineer | UX/UI
+               Fullstack Engineer | UX/UI
               </p>
               <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">
                 Find Out More
@@ -77,15 +77,16 @@ function App() {
               <hr class="divider light my-4" />
               <p class="text-white-50 mb-4">
                   Caribbean born, New York City based.
-                  <br />
+                  <br /><br />
                   I am passionate about programming, especially creating
                   beautiful applications that are both user friendly and
                   accessible for all.
-                  <br />
+                  <br /><br />
+                  Enrolled in an intensive 12-month, Google-funded software engineering fellowship with a 9% acceptance rate, at <a href="https://www.pursuit.org/">Pursuit </a>in Long Island City, Queens.
                   Having majored in film and tv, and specializing in traditional
                   animation, I'm thrilled to bring my creativity and artistic
                   background to web development.
-                  <br />
+                  <br /><br />
                   I'm also a professional baker and chocolatier and love to
                   dabble in the visual arts!
                 
@@ -103,7 +104,7 @@ function App() {
 
       <section class="page-section" id="services">
         <div class="container">
-          <h2 class="text-center mt-0">At Your Service</h2>
+          <h2 class="text-center mt-0">Skills</h2>
           <hr class="divider my-4" />
           <div class="row">
             <div class="col-lg-3 col-md-6 text-center">
